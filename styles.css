@@ -1,0 +1,49 @@
+/* CSS styling. Selectors sorted as they appears in the card */
+
+/* this is the card outer border */
+.container {
+  box-sizing: border-box;
+  width: 322px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 1px rgb(230, 230, 230);
+}
+
+h3{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.image {
+  width:300px;
+  height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+/* this is the box aruond the bottom text */
+.description {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid lightgray;
+  padding: 0 10px 5px;
+}
+
+p {
+  font-size: 12px;
+}
+
+ul{
+  padding-left: 0;
+  font-size: 13px;
+}
+
+span {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
